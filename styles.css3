@@ -40,4 +40,3 @@ h1 {
 .button:hover {
   background-color: #f2f2f2;
 }
--*2
