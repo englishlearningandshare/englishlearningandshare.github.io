@@ -19,8 +19,8 @@
 
     .video-container {
       max-width: 800px;
-      margin-bottom: 100px;
-      text-align: center; /* 居中视频和文字 */
+      margin-bottom: 40px;
+      text-align: center;
     }
 
     .video-container embed {
@@ -28,9 +28,17 @@
       height: 100%;
     }
 
-    /* 添加顶部间距 */
-    .video-container:not(:first-child) {
+    .video-container + .video-container {
       margin-top: 40px;
+    }
+
+    /* 添加分隔线样式 */
+    .video-container:not(:last-child)::after {
+      content: '';
+      display: block;
+      height: 2px;
+      background-color: #ccc;
+      margin-top: 20px;
     }
   </style>
 </head>
