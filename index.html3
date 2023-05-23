@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Our Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Our Website</h1>
+    <p class="description">Thank you for visiting our website. We are excited to have you here!</p>
+    <p class="description">Feel free to explore and discover all the great content we have to offer.</p>
+    <p class="description">If you have any questions or need assistance, please don't hesitate to contact us.</p>
+    <p class="description">Enjoy your stay!</p>
+    <a href="#" class="button">Start Learning</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
