@@ -19,7 +19,7 @@
 
     .video-container {
       max-width: 800px;
-      margin-bottom: 20px;
+      margin-bottom: 40px; /* 增加底部间距 */
     }
 
     .video-container embed {
@@ -27,8 +27,8 @@
       height: 100%;
     }
 
-    /* 添加间距样式 */
-    .video-container + .video-container {
+    /* 添加顶部间距 */
+    .video-container:first-child {
       margin-top: 20px;
     }
   </style>
