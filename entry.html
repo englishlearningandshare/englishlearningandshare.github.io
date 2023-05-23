@@ -15,7 +15,6 @@
       align-items: center;
       justify-content: center;
       height: 100vh;
-      overflow: auto; /* 添加滚动条以显示超出的内容 */
     }
 
     .video-container {
@@ -26,6 +25,11 @@
     .video-container embed {
       width: 100%;
       height: 100%;
+    }
+
+    /* 添加间距样式 */
+    .video-container + .video-container {
+      margin-top: 20px;
     }
   </style>
 </head>
